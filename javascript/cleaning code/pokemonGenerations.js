@@ -65,7 +65,7 @@ const renderPokemonCard = (pokemonData) => {
 
   return `
     <div class="page-load-cards">
-      <img class="poke-img" src="${sprites.other.dream_world.front_default}">
+      <img class="poke-img" src="${sprites.other.home.front_default}">
       <h1 class="pokemon-name">${name}</h1>
       <p class="" title="Add to team">${typeNames}</p>
     </div>
